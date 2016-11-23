@@ -1,0 +1,38 @@
+{
+  "name": "comic-book-bot",
+  "version": "1.0.0",
+  "description": "A simple chatbot that connects to Marvel API",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bot",
+    "marvel",
+    "comic",
+    "book",
+    "chat",
+    "viber",
+    "claudia"
+  ],
+  "author": "Slobodan Stojanovic <slobodan@cloudhorizon.com> (http://slobodan.me/)",
+  "license": "MIT",
+  "dependencies": {
+    "claudia-bot-builder": "^2.7.1",
+    "jsesc": "^2.2.0",
+    "minimal-request-promise": "^1.3.0",
+    "utf8": "^2.1.2"
+  },
+  "devDependencies": {
+    "eslint": "^3.10.2",
+    "eslint-config-defaults": "^9.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stojanovic/comic-book-bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stojanovic/comic-book-bot/issues"
+  },
+  "homepage": "https://github.com/stojanovic/comic-book-bot"
+}
